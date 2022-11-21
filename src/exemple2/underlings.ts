@@ -1,4 +1,4 @@
-import { TheodoerNames } from "./boss";
+import { TheodoerNames } from "./types";
 
 export const stan = {
   name: TheodoerNames.Stan,
