@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "lib": ["es2020"],
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "__devtools__"]
+}
