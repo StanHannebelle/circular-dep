@@ -1,1 +1,0 @@
-exports.stanName = 'Stan'
