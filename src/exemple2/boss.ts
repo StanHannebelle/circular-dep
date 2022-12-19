@@ -1,10 +1,5 @@
 import { charles, stan } from "./underlings";
-
-export enum TheodoerNames {
-  Stan = "STAN",
-  Charles = "CHARLES",
-  Julien = "JULIEN",
-}
+import { TheodoerNames } from "./types";
 
 export const boss = {
   name: TheodoerNames.Julien,

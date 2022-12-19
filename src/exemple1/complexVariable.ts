@@ -1,4 +1,4 @@
-import { baseVariable } from ".";
+import { baseVariable } from "./baseVariable";
 
 export const complexVariable = {
   type: "complex",

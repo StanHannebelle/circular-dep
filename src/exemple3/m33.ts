@@ -1,7 +1,3 @@
-import { Tribes } from "./tribes";
-
-export enum M33 {
-  Theodo = "Theodo",
-}
+import { M33, Tribes } from "./types";
 
 export const theodo = [{ name: M33.Theodo, tribes: [Tribes.Kumo] }];
